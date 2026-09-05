@@ -146,6 +146,12 @@
   .footnote{margin-top:14px; font-size:12.5px; color:var(--muted);}
   .banner{background:var(--green); color:#fff; border-radius:12px; padding:16px 18px; margin-top:16px;}
   .banner b{font-size:16px;}
+  .exgrid{display:grid; grid-template-columns:repeat(auto-fit,minmax(150px,1fr)); gap:12px; margin-top:10px;}
+  .exgif{border:1px solid var(--line); border-radius:12px; padding:10px 10px 12px; background:#FCFBF7;}
+  .exgif img{width:100%; max-width:150px; aspect-ratio:1/1; border-radius:8px; background:#fff; display:block; margin:0 auto; object-fit:contain;}
+  .exgif b{display:block; font-size:13px; margin-top:8px;}
+  .exgif .musc{display:block; font-size:11.5px; color:var(--muted); margin-top:1px;}
+  .exgif ol{margin:8px 0 0 16px; padding:0; text-align:left; font-size:12px; color:#3D4A43; display:flex; flex-direction:column; gap:3px;}
 </style>
 </head>
 <body>
@@ -246,6 +252,40 @@
 
   <div class="card">
     <div class="warnbox"><b>注意：</b>膝盖不舒服就把深蹲改半蹲、跳绳改快走；力量训练后第二三天肌肉酸痛是正常的（延迟性酸痛），酸痛期照常有氧，动作幅度可以减小但别停；21:30 前结束运动，否则影响睡眠。</div>
+  </div>
+
+  <div class="card">
+    <h2><span class="k">动作演示</span> · 照着做，别瞎练</h2>
+    <p class="muted">每个动作配动画演示和 3 条要领；动画循环播放，跟着节奏做。</p>
+
+    <h3>热身 · 每次训练前</h3>
+    <div class="exgrid">
+      <div class="exgif"><img src="https://cdn.jsdelivr.net/gh/hasaneyldrm/exercises-dataset@main/videos/3223-HtfCpfi.gif" alt="开合跳动画"><b>开合跳</b><span class="musc">热身 2分钟 · 约120次</span><ol><li>双脚与肩同宽，膝盖微屈</li><li>跳起时四肢张开呈星形</li><li>前脚掌轻落地，微屈膝缓冲</li></ol></div>
+    </div>
+
+    <h3>力量日 · 周一 / 周四</h3>
+    <div class="exgrid">
+      <div class="exgif"><img src="https://cdn.jsdelivr.net/gh/hasaneyldrm/exercises-dataset@main/videos/1685-QChZi3x.gif" alt="深蹲动画"><b>深蹲</b><span class="musc">3-4组 × 15-20次</span><ol><li>双脚与肩同宽，臀部后坐下蹲</li><li>蹲到大腿接近水平</li><li>站起时手臂上举过头，控制节奏</li></ol></div>
+      <div class="exgif"><img src="https://cdn.jsdelivr.net/gh/hasaneyldrm/exercises-dataset@main/videos/3470-kMzUs9Y.gif" alt="箭步蹲动画"><b>箭步蹲</b><span class="musc">3-4组 × 15-20次</span><ol><li>右脚向前迈一大步下蹲</li><li>前膝约90度，膝盖与脚踝对齐</li><li>前脚蹬地回站立，换腿交替</li></ol></div>
+      <div class="exgif"><img src="https://cdn.jsdelivr.net/gh/hasaneyldrm/exercises-dataset@main/videos/0662-I4hDWkc.gif" alt="俯卧撑动画"><b>俯卧撑</b><span class="musc">3-4组 × 力竭</span><ol><li>高位平板，双手略宽于肩</li><li>屈肘下降，身体保持一条直线</li><li>胸部接近地面时推起，别塌腰</li></ol></div>
+      <div class="exgif"><img src="https://cdn.jsdelivr.net/gh/hasaneyldrm/exercises-dataset@main/videos/3013-u0cNiij.gif" alt="臀桥动画"><b>臀桥</b><span class="musc">3组 × 15次</span><ol><li>仰卧屈膝，双脚平放</li><li>收紧臀部和核心，抬起髋部</li><li>肩-髋-膝成直线，顶端停1秒</li></ol></div>
+      <div class="exgif"><img src="https://cdn.jsdelivr.net/gh/hasaneyldrm/exercises-dataset@main/videos/3665-hCjGsRQ.gif" alt="平板支撑动画"><b>平板支撑</b><span class="musc">3组 × 30-60秒</span><ol><li>双手在肩正下方，身体一条直线</li><li>收紧核心和臀部保持稳定</li><li>撑不住就降前臂支撑</li></ol></div>
+    </div>
+
+    <h3>有氧 · 周二 / 周六</h3>
+    <div class="exgrid">
+      <div class="exgif"><img src="https://cdn.jsdelivr.net/gh/hasaneyldrm/exercises-dataset@main/videos/2612-e1e76I2.gif" alt="跳绳动画"><b>跳绳</b><span class="musc">1-2分钟一组 × 组休30秒</span><ol><li>双手持柄，膝盖微屈</li><li>绳过脚尖时轻跳</li><li>前脚掌着地，微屈膝缓冲</li></ol></div>
+    </div>
+
+    <h3>拉伸 · 每次训练后</h3>
+    <div class="exgrid">
+      <div class="exgif"><img src="https://cdn.jsdelivr.net/gh/hasaneyldrm/exercises-dataset@main/videos/0613-BWnJR72.gif" alt="大腿前侧拉伸动画"><b>大腿前侧</b><span class="musc">每侧 20-30秒</span><ol><li>侧躺，手抓上方脚踝</li><li>轻拉脚跟靠向臀部</li><li>感觉大腿前侧拉伸</li></ol></div>
+      <div class="exgif"><img src="https://cdn.jsdelivr.net/gh/hasaneyldrm/exercises-dataset@main/videos/1398-qOKcgVP.gif" alt="小腿拉伸动画"><b>小腿</b><span class="musc">每侧 20-30秒</span><ol><li>手扶墙，后脚退一步</li><li>后脚跟踩实地面</li><li>屈前膝前倾，后腿伸直</li></ol></div>
+      <div class="exgif"><img src="https://cdn.jsdelivr.net/gh/hasaneyldrm/exercises-dataset@main/videos/1271-Uto7l43.gif" alt="胸部肩前拉伸动画"><b>胸部+肩前</b><span class="musc">保持 20-30秒</span><ol><li>双臂身前伸直，手指交叉</li><li>肩胛向后夹</li><li>双手前推，感受胸部拉伸</li></ol></div>
+      <div class="exgif"><img src="https://cdn.jsdelivr.net/gh/hasaneyldrm/exercises-dataset@main/videos/1365-GSDioYu.gif" alt="上背拉伸动画"><b>上背</b><span class="musc">保持 15-30秒</span><ol><li>双臂身前伸直与地面平行</li><li>手指交叉，掌心朝外</li><li>手臂举过头顶，挤压肩胛</li></ol></div>
+    </div>
+
+    <p class="footnote">动画与要领来源：Exercises Dataset（数据 MIT 协议；动画媒体 © Gym visual — https://gymvisual.com/，按许可保留署名使用）。</p>
   </div>
 </section>
 
